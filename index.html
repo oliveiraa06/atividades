@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>The Last of Us Parte 1</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-areas:
+        "titulo"
+        "texto"
+        "imagem"
+        "link";
+      gap: 20px;
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      grid-area: titulo;
+      text-align: center;
+      color: #1c1c1c;
+    }
+
+    p {
+      grid-area: texto;
+      font-size: 18px;
+      color: #333333;
+      text-align: justify;
+    }
+
+    img {
+      grid-area: imagem;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    a {
+      grid-area: link;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: none;
+      color: #0066cc;
+    }
+
+    a:hover {
+      color: #004499;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>The Last of Us Parte 1</h1>
+    <p>
+      The Last of Us Parte 1 é um jogo de ação e aventura lançado pela Naughty Dog. A história acompanha Joel e Ellie, dois sobreviventes em um mundo destruído por uma infecção que transformou grande parte da população. O jogo é conhecido por sua narrativa emocionante, personagens bem construídos e gráficos incríveis. É considerado um dos melhores jogos de todos os tempos.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/The_Last_of_Us.jpg" alt="Capa do jogo The Last of Us">
+    <a href="https://www.playstation.com/pt-br/games/the-last-of-us-part-i/" target="_blank">
+      Clique aqui para saber mais sobre o jogo
+    </a>
+  </div>
+
+</body>
+</html>
